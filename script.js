@@ -123,8 +123,6 @@ let currentSeconds = Date.now();
 let event = new Date('August 19, 1975 23:15:30 UTC');
 let jsonDate = event.toJSON();
 
-
-
 let val;
 
 val = today;
