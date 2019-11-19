@@ -110,3 +110,29 @@
 // val = person.birthYear();
 
 // console.log(val);
+
+//----------------------------------------------------------
+
+//Dates and timestamps
+
+let today = new Date();
+let birthday = new Date('December 17, 1995 03:24:00');
+let birthdayMonth = birthday.getMonth();
+
+let currentSeconds = Date.now();
+let event = new Date('August 19, 1975 23:15:30 UTC');
+let jsonDate = event.toJSON();
+
+
+
+let val;
+
+val = today;
+val = birthday;
+val = birthdayMonth;
+
+val = currentSeconds;
+val = jsonDate;
+
+console.log(val);
+console.log(new Date(jsonDate).toUTCString());
