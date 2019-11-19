@@ -1,7 +1,3 @@
-/* Welcome to my JS Sandbox Library. This is where my playground is for learning more about javaScript and working towards my 2020 goal of becoming a stronger Web Developer who specializes in scripting <3 */
-
-//----------------------------------------------------------
-
 // Strings Appear Black in DOM, Numbers and Bools are blue
 // console.log("Hello");
 // console.log(123);
@@ -66,6 +62,51 @@
 // let lastChar = name.charAt(name.length - 1);
 // console.log(lastChar);
 
+//----------------------------------------------------------
 
+//Template Literals
+// const name = "Keith";
+// const age = 43;
+// const job = "Musician";
+// const city = "Kentucky";
+// let html;
 
+// html = `
+//     <ul>
+//         <li> Name: ${name}</li>
+//         <li> Age: ${age}</li>
+//         <li> Job: ${job}</li>
+//         <li> City: ${city}</li>
+//     </ul>
+// `;
 
+// document.body.innerHTML = html;
+
+//----------------------------------------------------------
+
+//Object Literals
+// const person = {
+//     firstName: "Maurice",
+//     lastName: "Boyd",
+//     age: 40,
+//     email: "m.boyd@aol.com",
+//     hobbies: ["Skiing", "Biking", "Swimming"],
+//     address: {
+//         street: "Westplate",
+//         state: "Wyoming"
+//     },
+//     birthYear:  function() {
+//         return 2019 - this.age;
+//     }
+// }
+
+// let val;
+
+// val = person.firstName;
+// val = person.lastName;
+// val = person.hobbies;
+// val = person.hobbies[0];
+// val = person.address.street;
+// val = person.birthYear();
+
+// console.log(val);
