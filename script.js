@@ -267,3 +267,42 @@
 // for(let x in user){
 //     console.log(`${x}: ${user[x]}`)
 // }
+
+//----------------------------------------------------------
+
+//WINDOW METHODS / OBJECTS / PROPERTIES
+
+//Alert
+// alert("hello");
+
+// Prompt
+// const input = prompt();
+// alert(input);
+
+// //Confirm
+// if (confirm('Do you really want to click yes?')){
+//     console.log('YES')
+// } else (
+//     console.log('NO')
+// )
+
+//Scroll Points - Useful for CSS 
+
+// let val;
+
+//Outer Height and Width
+// val = window.outerHeight;
+// val = window.outerWidth;
+
+//Inner Height and Width
+// val = window.innerHeight;
+// val = window.innerWidth;
+
+//Scroll Points
+// val = window.scrollY;
+// val = window.scrollX;
+
+// console.log(val)
+
+
+
