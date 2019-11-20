@@ -186,3 +186,84 @@
 // }  
 
 //----------------------------------------------------------
+
+//For Loop- When you know how many iterations you may have
+
+// for(let i = 0; i < 10; i++){
+//     if (i === 2){
+//         console.log( `${ i } is my favorite number!`);
+//         continue;
+//     } 
+
+//     if (i === 5 ){
+//         console.log('We have reached the end, this time.')
+//         break;
+//     }
+
+//     console.log('Number: ' + i)
+// }
+
+
+//While loop
+
+// let i = 0
+
+// while(i < 10){
+//     console.log('Number:' + i++)
+// }
+
+//Do While Loop
+
+// let i = 0; 
+
+// do {
+//     console.log('Number: ' + i);
+//     i++;
+
+// }
+
+// while( i < 10);
+
+//For Loop with Arrays
+// const cars = ['honda', 'toyota', 'subaru', 'ford']
+
+// for(let i = 0; i < cars.length; i++ ){
+//     console.log(cars[i]);
+// }
+
+//For Each
+// cars.forEach(function(car, index, array){
+//     console.log(`${index}: ${car}`);
+//     console.log(array);
+// })
+
+// let dogs =["Max", "Teddy", "Theo", "Dexter"];
+
+// dogs.forEach(function(dog, index){
+//     console.log(`${index} : ${dog}`)
+// })
+
+
+//Using Map to log ids for users
+
+// const users = [
+//     {id: 1, Name: "John"},
+//     {id: 2, Name: "Chad"},
+//     {id: 3, Name: "Cynthia"}
+// ]
+
+// users.forEach(function(user){
+//     console.log(user.id)
+// })
+
+//For In Loop
+
+// const user = {
+//     firstName: "John",
+//     lastName: "Doe",
+//     age: 40
+// }
+
+// for(let x in user){
+//     console.log(`${x}: ${user[x]}`)
+// }
