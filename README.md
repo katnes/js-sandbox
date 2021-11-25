@@ -1,5 +1,5 @@
 # js-sandbox
-This is a personal endeavour that I've committed to in order to further my ascent into the JS language.
+ARCHIVE- This is a personal endeavour to dive deeper into JS.
 
 ## Resources
 
